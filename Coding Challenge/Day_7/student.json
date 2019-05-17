@@ -1,0 +1,32 @@
+
+
+import json
+
+json_string = """
+
+{
+	"Students": {
+		"Student1": {
+			"FirstName": "Abhinav",
+			"LastName": "Goyal",
+			"Photo": "https://www.cse.iitb.ac.in/~abhigoyal/",
+			"Department": "Computer Science",
+			"College": "Indian Institute of Technology,Bombay",
+			"Contact Details": {
+				"Contact_number": "0123456789",
+				"email": "abhigoyal@cse.iitb.ac.in"
+			}
+		},
+		"Student2": {
+			"FirstName": "Abhishek",
+			"LastName": "Kumar",
+			"Photo": "https://www.cse.iitb.ac.in/~abhikumar/",
+			"Department": "Computer Science",
+			"College": "Indian Institute of Technology,Bombay",
+			"Contact Details": {
+				"Contact_number": "0123456789",
+				"email": "abhikumar@cse.iitb.ac.in"
+			}
+		}
+	}
+}
