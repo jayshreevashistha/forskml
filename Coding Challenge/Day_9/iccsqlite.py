@@ -50,4 +50,4 @@ conn = sqlite3.connect ( 'icc.db' )
 
 c = conn.cursor()
 
-#c.execute()
+c.execute()
