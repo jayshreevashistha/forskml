@@ -1,0 +1,36 @@
+For pre-processing, we considered Python as our options for the project . The ML
+algorithms provided by the scikit-learn package do not function if the input data has missing
+values. Hence we either had to impute data at the missing slots or remove the instances that had
+these missing fields. Upon examining the data, we realized that in this project we have some missing values which was replaced by zero. we also observed that dataset have categorical data that needs to be converted in integer
+values to make the model work. And to do that we used LabelEncoder().
+Additionally, the statistical correlation between some features (for instances where they were
+available) were appeared to be not related. Hence, we dropped those features. In addition to
+this, sampling was necessary for machine learning algorithms.
+Libraries used
+? numpy
+? pandas
+? matplotlib.pyplot
+? pickle
+? scikitlearn
+o sklearn.cross_validation
+o sklearn.preprocessing
+o sklearn.linear_model
+o sklearn.ensemble
+o sklearn.model_selection
+o sklearn.metrics
+
+
+Regression Method 
+
+Here,in this project we have used Random forest algorithm as the average score after training was about 94 percent 
+which was maximun with respect to other algorithms such as Linear Regression(84 percent), Decision Tree (92 percent aprox).
+However as the data is very large and we had many attributes so the training part of the data took verylong time. So we
+had trained the data single time only and had saved the trained data in the pickle file, from where we can use that train
+data to make the predictions. 
+
+Data Visulaization
+
+visualization of the data we had used matplotlib library.
+Through matplotlib,we were able to visualize weekly sales of the each store,weekly sales of 
+each department.
+
